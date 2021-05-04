@@ -1,0 +1,85 @@
+header{
+    margin:0 auto;
+    width:1200px;
+    height:230px;
+    
+    cursor: pointer;
+  }
+  .nav{
+    width:200px;
+    height:230px;
+    float:left;
+  }
+  #one{
+    background-color: rgb(208,101,3);
+  }
+  #two{
+    background-color: rgb(233,147,26);
+  }
+  #three{
+    background-color: rgb(22,145,190);
+  }
+  #four{
+    background-color: rgb(22,107,162);
+  }
+  #five{
+    background-color: rgb(27,54,71);
+  }
+  #six{
+    background-color: rgb(21,40,54);
+  }
+  .icon{
+    display:block;
+    margin:50px auto;
+    background-color: rgba(5, 2, 2, 0.15);
+    width:40px;
+    padding:20px;
+    -WebKit-border-radius:50%;/* i started using webkit here becasue i wanted to make the navbar a bit more interactive (google chrome) in this the radius of this part of the navbar becomes 50 percent when the webkit function activates*/
+    -WebKit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    -WebKit-transition:box-shadow .4s;
+  }
+  .text{
+    text-align:center;
+    color:white;
+    font-size:1.2em;
+    padding-top:10px;
+    opacity:.6;
+    -WebKit-transition:padding-top .4s
+  }
+  .nav:hover{
+    height:250px;
+    -WebKit-transition:height .4s
+  }
+  .nav:hover .text{
+    padding-top:30px;
+    opacity: 1;
+  }
+  
+  h1{
+      text-align: center;
+      font-family: 'Share Tech Mono', monospace;
+      color: white;
+  }
+  p{
+      font-family: 'Share Tech Mono', monospace;
+      color: antiquewhite;
+      text-align: center;
+  }
+  body{
+    width:1680px;
+    height: 1080px;
+    background-image: url("images/f1.jpg");
+    background-repeat: no-repeat;
+  }
+  #header{
+      text-align: center;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
